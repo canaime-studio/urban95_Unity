@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: a7d5fcb44d6783d4989b436cf9ca6ace
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane.006
+    100004: Plane.007
+    100006: Plane.008
+    100008: asfalto
+    100010: bancomarmore
+    100012: "cal\xE7adafrentebobs"
+    100014: Camera
+    100016: chao
+    100018: chao da piscina
+    100020: chaoFinal
+    100022: Cube
+    100024: Cube.001
+    100026: Cube.002
+    100028: grama
+    100030: grama.001
+    100032: gramagrande
+    100034: GUARDA-CHUVA
+    100036: jardim
+    100038: jardim.001
+    100040: jardim.002
+    100042: jardim.003
+    100044: jardim.004
+    100046: jardim.005
+    100048: jardim.006
+    100050: jardim.007
+    100052: mask.001
+    100054: monumento
+    100056: monumentochafaris
+    100058: monumentop1
+    100060: monumentop2
+    100062: piscina
+    100064: piscina agua
+    100066: Plane
+    100068: Plane.000
+    100070: Plane.001
+    100072: Plane.002
+    100074: Plane.003
+    100076: Plane.004
+    100078: Plane.005
+    100080: ponta praca
+    100082: portal do milenium
+    100084: Sun
+    400000: //RootNode
+    400002: Plane.006
+    400004: Plane.007
+    400006: Plane.008
+    400008: asfalto
+    400010: bancomarmore
+    400012: "cal\xE7adafrentebobs"
+    400014: Camera
+    400016: chao
+    400018: chao da piscina
+    400020: chaoFinal
+    400022: Cube
+    400024: Cube.001
+    400026: Cube.002
+    400028: grama
+    400030: grama.001
+    400032: gramagrande
+    400034: GUARDA-CHUVA
+    400036: jardim
+    400038: jardim.001
+    400040: jardim.002
+    400042: jardim.003
+    400044: jardim.004
+    400046: jardim.005
+    400048: jardim.006
+    400050: jardim.007
+    400052: mask.001
+    400054: monumento
+    400056: monumentochafaris
+    400058: monumentop1
+    400060: monumentop2
+    400062: piscina
+    400064: piscina agua
+    400066: Plane
+    400068: Plane.000
+    400070: Plane.001
+    400072: Plane.002
+    400074: Plane.003
+    400076: Plane.004
+    400078: Plane.005
+    400080: ponta praca
+    400082: portal do milenium
+    400084: Sun
+    2000000: Camera
+    2100000: Material.004
+    2100002: Gr_ama
+    2100004: Calcada
+    2100006: Material.005
+    2100008: Gr_ama.001
+    2100010: Calcada.001
+    2100012: Material.009
+    2100014: Calcada.004
+    2100016: Vias
+    2100018: Grama
+    2100020: No Name
+    2100022: Material
+    2100024: Material.001
+    2100026: Material.003
+    2100028: grama
+    2100030: guarda chuva
+    2100032: Material.002
+    2100034: monumetoazul
+    2100036: cinza
+    2100038: asfalto.001
+    2100040: faixa.002
+    2300000: Plane.006
+    2300002: Plane.007
+    2300004: Plane.008
+    2300006: asfalto
+    2300008: bancomarmore
+    2300010: "cal\xE7adafrentebobs"
+    2300012: chao
+    2300014: chao da piscina
+    2300016: chaoFinal
+    2300018: Cube
+    2300020: Cube.001
+    2300022: Cube.002
+    2300024: grama
+    2300026: grama.001
+    2300028: gramagrande
+    2300030: GUARDA-CHUVA
+    2300032: jardim
+    2300034: jardim.001
+    2300036: jardim.002
+    2300038: jardim.003
+    2300040: jardim.004
+    2300042: jardim.005
+    2300044: jardim.006
+    2300046: jardim.007
+    2300048: mask.001
+    2300050: monumento
+    2300052: monumentochafaris
+    2300054: monumentop1
+    2300056: monumentop2
+    2300058: piscina
+    2300060: piscina agua
+    2300062: Plane
+    2300064: Plane.000
+    2300066: Plane.001
+    2300068: Plane.002
+    2300070: Plane.003
+    2300072: Plane.004
+    2300074: Plane.005
+    2300076: ponta praca
+    2300078: portal do milenium
+    3300000: Plane.006
+    3300002: Plane.007
+    3300004: Plane.008
+    3300006: asfalto
+    3300008: bancomarmore
+    3300010: "cal\xE7adafrentebobs"
+    3300012: chao
+    3300014: chao da piscina
+    3300016: chaoFinal
+    3300018: Cube
+    3300020: Cube.001
+    3300022: Cube.002
+    3300024: grama
+    3300026: grama.001
+    3300028: gramagrande
+    3300030: GUARDA-CHUVA
+    3300032: jardim
+    3300034: jardim.001
+    3300036: jardim.002
+    3300038: jardim.003
+    3300040: jardim.004
+    3300042: jardim.005
+    3300044: jardim.006
+    3300046: jardim.007
+    3300048: mask.001
+    3300050: monumento
+    3300052: monumentochafaris
+    3300054: monumentop1
+    3300056: monumentop2
+    3300058: piscina
+    3300060: piscina agua
+    3300062: Plane
+    3300064: Plane.000
+    3300066: Plane.001
+    3300068: Plane.002
+    3300070: Plane.003
+    3300072: Plane.004
+    3300074: Plane.005
+    3300076: ponta praca
+    3300078: portal do milenium
+    4300000: Plane.006
+    4300002: Plane.007
+    4300004: Plane.008
+    4300006: jardim.007
+    4300008: jardim.006
+    4300010: jardim.005
+    4300012: jardim.004
+    4300014: jardim.003
+    4300016: jardim.002
+    4300018: jardim.001
+    4300020: chaoFinal
+    4300022: mask.001
+    4300024: asfalto
+    4300026: bancomarmore
+    4300028: "cal\xE7adafrentebobs"
+    4300030: chao
+    4300032: chao da piscina
+    4300034: Cube
+    4300036: grama.001
+    4300038: grama
+    4300040: gramagrande
+    4300042: GUARDA-CHUVA
+    4300044: jardim
+    4300046: monumento
+    4300048: monumentochafaris
+    4300050: monumentop1
+    4300052: monumentop2
+    4300054: piscina
+    4300056: piscina agua
+    4300058: Plane.000
+    4300060: Plane.001
+    4300062: Plane.002
+    4300064: Plane.003
+    4300066: Plane.004
+    4300068: Plane.005
+    4300070: Plane
+    4300072: ponta praca
+    4300074: portal do milenium
+    4300076: Cube.002
+    4300078: Cube.001
+    10800000: Sun
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Calcada
+    second: {fileID: 2100000, guid: 5c8ff879018549b44a3285ec2d9cd770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grama
+    second: {fileID: 2100000, guid: 4afc91ea3b7a17341831abf69ef57c56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vias
+    second: {fileID: 2100000, guid: 785e8d39e57c7d041874dd204cac71c5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

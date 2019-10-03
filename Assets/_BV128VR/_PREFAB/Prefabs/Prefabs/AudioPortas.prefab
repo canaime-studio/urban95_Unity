@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1243058478965842}
+  m_IsPrefabAsset: 1
+--- !u!1 &1243058478965842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4281178331187862}
+  - component: {fileID: 114413750208156856}
+  m_Layer: 0
+  m_Name: AudioPortas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4281178331187862
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243058478965842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04014778, y: 2.987189, z: 32.584503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114413750208156856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243058478965842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d1c143726ee8f4ea623b15f38b0674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonsPortasAbrindo:
+  - {fileID: 8300000, guid: c8458a97a3326944d8dbb5cfaf53a00d, type: 3}
+  - {fileID: 8300000, guid: 04fd0e8b53c988e459c1761860a96ee6, type: 3}
+  sonsPortasFechando:
+  - {fileID: 8300000, guid: 16dcf36d797551e44af71ec7e0a4bdc0, type: 3}
+  - {fileID: 8300000, guid: 60ddbf75c0535104bab8bd0563af4e82, type: 3}
+  teste: 0

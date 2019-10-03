@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9f1b72cb9e0bc84485eb1e49e8a1798
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - abriPorta: {instanceID: 0}
+  - player: {instanceID: 0}
+  - audiosPortas: {fileID: 114413750208156856, guid: ece36ef08b7acad4faaa002819d14234,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

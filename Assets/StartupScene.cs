@@ -34,10 +34,14 @@ public class StartupScene : MonoBehaviour
         gameManager.ThirdPersonPlayer.GetComponent<Animator>().avatar = player3PAvatar;
 
         //VR
+        var player = Instantiate(player3PModel, gameManager.VRPlayer.gameObject.transform);
+        player.transform.localPosition = new Vector3(0,-0.1f,0);
         gameManager.VRPlayer.GetComponent<CharacterController>().height = alturaPlayer;
         gameManager.VRPlayer.GetComponent<CharacterController>().center = new Vector3(0, alturaPlayer/2,0);
-        gameManager.VRPlayer.GetComponent<NvrBody>().cameraHeightOffset = alturaPlayer-0.1f;
-        Instantiate(player3PModel, gameManager.VRPlayer.gameObject.transform);
+        gameManager.VRPlayer.GetComponent<NvrBody>().cameraHeightOffset = alturaPlayer-0.15f;
+        
+        
+
         gameManager.VRPlayer.GetComponent<Animator>().avatar = player3PAvatar;
     }
 

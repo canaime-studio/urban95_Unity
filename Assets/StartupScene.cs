@@ -30,8 +30,9 @@ public class StartupScene : MonoBehaviour
 
         if(gameManager == null) gameManager = FindObjectOfType<GameManager>();
 
-        Instantiate(player3PModel, gameManager.ThirdPersonPlayer.gameObject.transform);
+        var playerTP = Instantiate(player3PModel, gameManager.ThirdPersonPlayer.gameObject.transform);
         gameManager.ThirdPersonPlayer.GetComponent<Animator>().avatar = player3PAvatar;
+        playerTP.transform.localPosition = new Vector3(0, 0, 0);
 
         //VR
         var player = Instantiate(player3PModel, gameManager.VRPlayer.gameObject.transform);

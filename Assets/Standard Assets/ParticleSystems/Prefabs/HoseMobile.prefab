@@ -89,7 +89,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 0
@@ -4738,7 +4738,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100004}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9520,7 +9520,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100008}
   serializedVersion: 6
-  lengthInSec: 5
+  lengthInSec: 1.3
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 3
@@ -9665,8 +9665,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8156863, g: 0.8156863, b: 0.8156863, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      minColor: {r: 0.8156863, g: 0.8156863, b: 0.8156863, a: 0.6431373}
+      maxColor: {r: 1, g: 1, b: 1, a: 0.69411767}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10008,7 +10008,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 200
+    maxNumParticles: 50
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -10154,7 +10154,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.24033368
+      value: 0.2388287
       mode: 0
       spread: 0
       speed:
@@ -10273,7 +10273,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 250
+      scalar: 84.6
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -12908,7 +12908,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 3
     type: 1
     collisionMode: 0
@@ -13108,7 +13108,7 @@ ParticleSystem:
     radiusScale: 1
   SubModule:
     serializedVersion: 2
-    enabled: 1
+    enabled: 0
     subEmitters:
     - serializedVersion: 3
       emitter: {fileID: 19800002}
@@ -14085,10 +14085,10 @@ ParticleSystemRenderer:
   m_SortingOrder: 0
   m_RenderMode: 1
   m_SortMode: 0
-  m_MinParticleSize: 0
-  m_MaxParticleSize: 0.2
+  m_MinParticleSize: 0.01
+  m_MaxParticleSize: 0.02
   m_CameraVelocityScale: 0
-  m_VelocityScale: 0.04
+  m_VelocityScale: 0.08
   m_LengthScale: 0
   m_SortingFudge: 0
   m_NormalDirection: 1
@@ -14256,7 +14256,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10.814334
+      scalar: 9.576029
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -14652,7 +14652,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 20
+    maxNumParticles: 5
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -14798,7 +14798,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.16
+      value: 0.29378936
       mode: 0
       spread: 0
       speed:
@@ -14917,7 +14917,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -15347,7 +15347,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 1
+    enabled: 0
     gradient:
       serializedVersion: 2
       minMaxState: 1

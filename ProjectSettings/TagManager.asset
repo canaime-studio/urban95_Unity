@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - Vegetacao
+  - Personagens
+  - PainelInformatigo_Trigger
+  - Interativo
   layers:
   - Default
   - TransparentFX
@@ -17,7 +21,7 @@ TagManager:
   - Lighting
   - Ground
   - Postprocessing
-  - 
+  - Walkable
   - 
   - 
   - 

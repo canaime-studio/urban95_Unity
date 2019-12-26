@@ -8,6 +8,8 @@ public class InformativoUI : MonoBehaviour {
     private Transform minhaPosicao;
     public InformationScript informativoAtual;
     public float distancia;
+    public AudioSource audio;
+
 
     public VRAutoWalk PlayerVRAutoWalk;
 
@@ -31,7 +33,9 @@ public class InformativoUI : MonoBehaviour {
     public Canvas tpCanvas;
 
     void Awake()
-    {        
+    {
+        if (audio == null) audio = GetComponent<AudioSource>();
+
         PlayerVRAutoWalk = GameObject.FindObjectOfType<VRAutoWalk>();
     }
 	// Use this for initialization
@@ -56,6 +60,8 @@ public class InformativoUI : MonoBehaviour {
             if (PlayerVRAutoWalk.moveForward == true)
             {
                 canvas.enabled = false;
+                audio.Stop();
+
             }
             else
             {
@@ -90,13 +96,22 @@ public class InformativoUI : MonoBehaviour {
         //PlayerVRAutoWalk.FecharInformacao(); 
         //Debug.LogError("Desativar");
         canvas.enabled = false;
-        
+        if (audio != null)
+        {
+            audio.Stop();
+
+        }
         //informativoAtual.gameObject.SetActive(true);
         //canvasEnabled = false;
         //player.GetComponent<VRAutoWalk>().moveForward = false;
         //player.GetComponent<VRAutoWalk>().enabled = true;
 
         //gameObject.SetActive(false);
+    }
+    public void stopAudio()
+    {
+        audio.Stop();
+
     }
     void PlayerAndar(bool andar)
     {

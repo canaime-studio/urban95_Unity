@@ -10,8 +10,10 @@ public class CheckpointData : MonoBehaviour {
     public int recompensa;
     public bool concluida;
 
-	// Use this for initialization
-	void Start () {		
+    public AudioClip audioDescricao;
+
+    // Use this for initialization
+    void Start () {		
 	}
 	
 	// Update is called once per frame

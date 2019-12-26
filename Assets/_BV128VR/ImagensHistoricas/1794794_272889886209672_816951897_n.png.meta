@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: c47e710403e95f24fbe2d2a4a246e3b7
+labels:
+- ForteSaoJoaquim
+- ImagensHistoricas
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -97,7 +100,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5267823ff169a3d45a07aab68317cfc8
+    spriteID: 713f1409dea0530409e832ce94b04de4
     vertices: []
     indices: 
     edges: []

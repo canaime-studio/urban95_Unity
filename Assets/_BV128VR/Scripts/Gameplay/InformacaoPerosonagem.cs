@@ -13,9 +13,15 @@ public class InformacaoPerosonagem : MonoBehaviour
     public string playerName;
     public string informacoes;
     public bool chamarInformacaoMissao;
+    public bool conversar;
+
+    [SerializeField] Player player;
+    //erializeField]
 
     void Start()
     {
+        player = FindObjectOfType<GameManager>().playerAtivo;
+
         HideUI();
         playerNameUIText.text = playerName;   
     }
@@ -38,7 +44,7 @@ public class InformacaoPerosonagem : MonoBehaviour
             GetComponent<CharacterNPC>().chamarCanvasMissao();
         } else
         {
-
+            Conversar();
         }
         
     }
@@ -59,5 +65,20 @@ public class InformacaoPerosonagem : MonoBehaviour
     public void HideUI()
     {
         playerNameUI.gameObject.SetActive(false);
+    }
+    public void Conversar()
+    {
+        if (conversar)
+        {
+            var canvas = Instantiate(player.canvasInformacoesNPC, player.GetComponent<PlayerUI>().rootGameUI);
+
+            if (GameManager.gameMode == GameMode.VR)
+            {
+                canvas.transform.position = player.canvasPositionVR.transform.position;
+            }
+            
+            canvas.GetComponent<CanvasInformacoesNPC>().nome.text = playerName;
+            canvas.GetComponent<CanvasInformacoesNPC>().informacoes.text = informacoes;
+        }
     }
 }

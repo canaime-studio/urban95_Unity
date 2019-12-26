@@ -7,6 +7,7 @@ public class NPCAnimacao : MonoBehaviour
 
     private Animator animator;
     public bool sentado;
+    public bool tirandoLeite;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,10 @@ public class NPCAnimacao : MonoBehaviour
         {
             animator.SetBool("Sentado", true);
         }
-        
+        if (tirandoLeite)
+        {
+            animator.SetBool("Ordenhando", true);
+        }
+
     }
 }

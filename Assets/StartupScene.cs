@@ -14,8 +14,14 @@ public class StartupScene : MonoBehaviour
 
     public Transform playerStartPosition;
 
+    public Transform seta3P;
+    public Transform setaVR;
+    public GameObject seta;
+
 
     public float alturaPlayer;
+    private bool isVR;
+
     private void Awake()
     {
         setupScene.transform.SetParent(null);
@@ -30,20 +36,30 @@ public class StartupScene : MonoBehaviour
 
         if(gameManager == null) gameManager = FindObjectOfType<GameManager>();
 
-        var playerTP = Instantiate(player3PModel, gameManager.ThirdPersonPlayer.gameObject.transform);
+        Instantiate(player3PModel, gameManager.ThirdPersonPlayer.gameObject.transform);
         gameManager.ThirdPersonPlayer.GetComponent<Animator>().avatar = player3PAvatar;
-        playerTP.transform.localPosition = new Vector3(0, 0, 0);
 
         //VR
-        var player = Instantiate(player3PModel, gameManager.VRPlayer.gameObject.transform);
-        player.transform.localPosition = new Vector3(0,-0.1f,0);
         gameManager.VRPlayer.GetComponent<CharacterController>().height = alturaPlayer;
         gameManager.VRPlayer.GetComponent<CharacterController>().center = new Vector3(0, alturaPlayer/2,0);
-        gameManager.VRPlayer.GetComponent<NvrBody>().cameraHeightOffset = alturaPlayer-0.15f;
-        
-        
-
+        gameManager.VRPlayer.GetComponent<NvrBody>().cameraHeightOffset = alturaPlayer-0.1f;
+        Instantiate(player3PModel, gameManager.VRPlayer.gameObject.transform);
         gameManager.VRPlayer.GetComponent<Animator>().avatar = player3PAvatar;
+
+        isVR = GameManager.gameMode.Equals(GameMode.VR) ? true : false;
+        if (isVR)
+        {
+            seta.transform.SetParent(setaVR.transform);
+            seta.transform.localPosition=new Vector3(0,0,0);
+        }
+        else if (!isVR)
+        {
+            seta.transform.SetParent(seta3P.transform);
+            seta.transform.localPosition = new Vector3(0, 0, 0);
+
+
+        }
+
     }
 
     private void Start()

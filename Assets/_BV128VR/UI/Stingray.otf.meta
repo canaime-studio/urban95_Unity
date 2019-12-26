@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 6b393605126cb3249ac4cf8f2fcad67f
+labels:
+- Font
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4

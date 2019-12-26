@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MissaoDetalhes : MonoBehaviour
 {
+   // public AuxiliarMissao auxiliarMissao;
     public int ID;
     public int sequencia;
     public bool ativa;
@@ -36,6 +37,11 @@ public class MissaoDetalhes : MonoBehaviour
     public MissaoRondaCheckPoints missao_checkpoints;
 
     public TimelinePlaybackManager timelinePlaybackManager;
+
+    public void Awake()
+    {
+        missao_checkpoints.auxiliarMissao = missaoController.auxiliarMissao;
+    }
 
     IEnumerator PlayCinematic()
     {

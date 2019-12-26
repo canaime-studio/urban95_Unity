@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -11,33 +12,60 @@ public class Player : MonoBehaviour
     public GameObject PrefabPlayer;
     public Component playerController;
     public GameObject verificarButton;
+    public GameObject conversarButton;
     public GameObject inspencionado;
-    public Acompanhante acompanhante;
+    public CharacterNPC acompanhante;
     public InformationItem information;
 
     public MonoBehaviour[] componentsPlayerDisable;
     public MonoBehaviour[] componentsPlayerEnable;
     public GameObject cameraObject;
+    public Transform cameraPivot;
+
     public GameObject canvasObject;
     public Transform canvasPosition;
+    
 
     public Rigidbody rb;
     public CharacterController characterController;
     public Vehicle veiculoDisponivel;
 
     public VehiclePlayerControl vehicleControl;
+    public bool serSeguido;
 
     public bool driving;
+
+    //private ControllerRidingAnimal controllerRidingAnimal;
+    //private AnimalControlavel animalControlavel;
+
+
+    public Canvas canvas;
+    public GameObject painel;
+    public Text missaoTitulo;
+    public Text missaoDescricao;
+    public Text informacao_extra;
+    public RawImage imagemMissao;
+    public GameObject canvasPositionVR;
+    public Text cronometro;
+
+    [Header("CanvasPrefabs")]
+    public GameObject canvasInformacoesNPC;
+
 
     private void OnTriggerEnter(Collider collider)
     {
         if (GameManager.gameMode.Equals(GameMode.ThirdPerson))
         {
-            if (collider.transform.tag == "ItemInformativo" || collider.transform.tag == "Interativo")
+            if (collider.transform.tag == "ItemInformativo")
             {
                 verificarButton.SetActive(true);
                 inspencionado = collider.GetComponent<Interativo>().objetoInterativo.gameObject;
+            }
 
+            if (collider.transform.tag == "Interativo")
+            {
+                conversarButton.SetActive(true);
+                inspencionado = collider.GetComponent<Interativo>().objetoInterativo.gameObject;
             }
         }
         if (collider.transform.tag == "VeiculoControlavel")
@@ -45,22 +73,44 @@ public class Player : MonoBehaviour
             veiculoDisponivel = collider.gameObject.GetComponent<Vehicle>();            
             vehicleControl.vehicle = veiculoDisponivel;
         }
+
+        if (collider.transform.tag == "montavel")
+        {
+          //  Debug.LogError("contato!!");
+            //animalControlavel = collider.gameObject.GetComponent<AnimalControlavel>();
+            //animalControlavel.contato = true;
+
+        }
+
+
+
     }
     private void OnTriggerExit(Collider collider)
     {
         if (GameManager.gameMode.Equals(GameMode.ThirdPerson))
         {
-            if (collider.transform.tag == "Interativo")
+            if (collider.transform.tag == "ItemInformativo")
             {
                 verificarButton.SetActive(false);
                 inspencionado = null;
-                Debug.Log("fecharbutton");
+            }
+            if (collider.transform.tag == "Interativo")
+            {
+                conversarButton.SetActive(false);
+                inspencionado = null;
             }
         }
         if (collider.transform.tag == "VeiculoControlavel")
-        {            
+        {
             veiculoDisponivel = null;
-            vehicleControl.vehicle = null;            
+            vehicleControl.vehicle = null;
+        }
+
+        if (collider.transform.tag == "montavel")
+        {
+            //animalControlavel.contato = false;
+            //animalControlavel = null;
+
         }
     }
     private void OnCollisionEnter(Collision collision)
@@ -79,7 +129,6 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         characterController = GetComponent<CharacterController>();
         vehicleControl = GetComponent<VehiclePlayerControl>();
-        gameManager = FindObjectOfType<GameManager>();
     }
     private void Start()
     {
@@ -181,14 +230,29 @@ public class Player : MonoBehaviour
         if (inspencionado.transform.tag == "Personagens")
         {
             //      Debug.LogError("interagindo personagem");
-            acompanhante = inspencionado.GetComponent<Acompanhante>();
-            acompanhante.chamarCanvasMissao();
+            acompanhante = inspencionado.GetComponent<CharacterNPC>();
+
+            if(acompanhante != null)
+            {
+                acompanhante.chamarCanvasMissao();
+            } else
+            {
+                var npcConversar = inspencionado.GetComponent<InformacaoPerosonagem>();
+                if(npcConversar != null)
+                {
+                    npcConversar.Conversar();
+                }
+            }
+            
+            
         }
         else if (inspencionado.transform.tag == "ItemInformativo")
         {
             information = inspencionado.GetComponent<InformationItem>();
             information.ExibirInformativoTP();
         }
+
+
 
 
     }
@@ -231,7 +295,7 @@ public class Player : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Nao tem canvas");
+                //Debug.LogError("Nao tem canvas");
             }
             
         }        
@@ -244,6 +308,25 @@ public class Player : MonoBehaviour
         canvasObject.transform.localRotation = Quaternion.Euler(new Vector3(0, -46.5f, 0));
         canvasObject.transform.localPosition = new Vector3(-1, -0.45f, 1.45f);
     }
+
+    //public void MontarAnimal()
+    //{
+    //    animalControlavel.Drive();
+    //}
+
+    //public void CaronaAnimal()
+    //{
+    //    animalControlavel.GetRide();
+    //}
+
+    //public void DesmontarAnimal()
+    //{
+    //    animalControlavel.Exit();
+    //}
+    //public void ControlarVR()
+    //{
+    //    if(animalControlavel != null) animalControlavel.ControlsVR();
+    //}
 }
 
 

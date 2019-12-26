@@ -426,7 +426,7 @@ public class ReticleRingInventory: MonoBehaviour, GazePointerInventory {
                 gazeType = GazeType.TALK;
                 break;
             case 11:
-                Debug.Log("No Piso");
+                //Debug.Log("No Piso");
                 gazeType = GazeType.WALK;
                 break;
             case 12:

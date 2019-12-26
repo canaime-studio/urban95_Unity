@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CheckPointRedMarker : MonoBehaviour {
 
-
+    public AuxiliarMissao auxMissao;
     public CheckpointData checkData;
     MissaoRondaCheckPoints scriptMRCP;
     public GameObject checkPoints;
@@ -36,6 +36,7 @@ public class CheckPointRedMarker : MonoBehaviour {
 
         scriptMRCP.IndexCheckPointAtual++;
         scriptMRCP.SendMessage("ProximoCheck", scriptMRCP.IndexCheckPointAtual);
+        //auxMissao.alvo=Pro
         collider.enabled = false;
 
    }

@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: bab6e1f45fc470f459b3266d27dedeea
+labels:
+- Ui
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0

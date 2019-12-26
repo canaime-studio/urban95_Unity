@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
 public class MissaoRondaCheckPoints : MonoBehaviour {
 
     public CheckpointData[] checkpointsData;
@@ -18,19 +19,24 @@ public class MissaoRondaCheckPoints : MonoBehaviour {
 
     public GameManager gameManager;
 
+    public AudioSource audio;
+    public int PremioMissao;
+
     //public AudioClip audioClip;
     //public AudioSource audioSource;
+    public AuxiliarMissao auxiliarMissao;
 
     private void Awake()
     {
         if (gameManager == null)
-            gameManager = GameManager.FindObjectOfType<GameManager>();        
+            gameManager = GameManager.FindObjectOfType<GameManager>();
+
+        if (audio == null) audio = GetComponent<AudioSource>();
     }
 
 
     //Excluir
     //public VRInventoryExampleSceneController1 exampleController1;
-    public int PremioMissao;
 
 
     void Start () {
@@ -44,9 +50,24 @@ public class MissaoRondaCheckPoints : MonoBehaviour {
         checkPointObject =  Instantiate(checkPointRedMarkerPrefab, checkpointsData[IndexCheckPointAtual].gameObject.transform.position, checkpointsData[IndexCheckPointAtual].gameObject.transform.rotation);        
         checkPointObject.transform.SetParent(checkpointsData[IndexCheckPointAtual].transform);
         checkPointObject.checkData = checkpointsData[IndexCheckPointAtual];
+
+        auxiliarMissao.alvo = checkPointObject.gameObject;
+
+        
+        // checkPointObject.auxMissao = auxiliarMissao;
         checkPointObject.checkPoints = gameObject;
     }
-	
+
+
+	void PlayAudio()
+    {
+        if (checkPointObject.checkData.audioDescricao != null)
+        {
+            audio.clip = checkPointObject.checkData.audioDescricao;
+            audio.Play();
+            Debug.Log("vamos testar o audio");
+        }
+    }
 
     public void ProximoCheck(int proxIndex)
     {        
@@ -59,10 +80,16 @@ public class MissaoRondaCheckPoints : MonoBehaviour {
             checkPointObject.transform.position = new Vector3(checkpointsData[proxIndex].transform.position.x, checkpointsData[proxIndex].transform.position.y, checkpointsData[proxIndex].transform.position.z);
             checkPointObject.transform.SetParent(checkpointsData[proxIndex].transform);
             checkPointObject.checkData = checkpointsData[proxIndex];
-            
+            auxiliarMissao.alvo = checkPointObject.gameObject;
+            PlayAudio();
             CheckPoint();
+
+            
+            
         } else if(proxIndex == checkpointsData.Length)
         {
+            PlayAudio();
+
             Debug.Log("Ultimo Check - Missão Completa: " + checkPointObject.name);
             MissaoCompleta();
             Destroy(checkPointObject.gameObject);

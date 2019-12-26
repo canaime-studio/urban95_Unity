@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
+using System;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class VehiclePlayerControl : MonoBehaviour
 {
@@ -30,7 +32,7 @@ public class VehiclePlayerControl : MonoBehaviour
         {
             if (!p_drivining)
             {
-                Debug.Log("Ta passando aqui nao");
+                //Debug.Log("Ta passando aqui nao");
                 guiControlsVehicle.enabled = false;
             }
         }  
@@ -45,8 +47,8 @@ public class VehiclePlayerControl : MonoBehaviour
             {
 
                 ControlsPC();
-
 #if MOBILE_INPUT
+                //Debug.Log("teste");
                 Controls3rdPerson();
 #endif
             }
@@ -73,7 +75,7 @@ public class VehiclePlayerControl : MonoBehaviour
                 }
                 else if (p_canExit && vehicle.canExitVehicle)
                 {
-                    Debug.Log("Vamo tentar sair 1");
+                   // Debug.Log("Vamo tentar sair 1");
                     ExitVehicle();
                 }
             }
@@ -88,14 +90,14 @@ public class VehiclePlayerControl : MonoBehaviour
             //Debug.Log("aqui");
             if ((p_canDrive && !p_canGetRide) && vehicle.canDriveVehicle)
             {
-                Debug.Log("Pode Dirigir, mas nao Carona");
+                //Debug.Log("Pode Dirigir, mas nao Carona");
                 buttonDrive.SetActive(true);
                 buttonGetRide.SetActive(false);
                 buttonExitVehicle.SetActive(false);
             }
             else if ((p_canDrive && p_canGetRide) && vehicle.canDriveVehicle)
             {
-                Debug.Log("Pode Dirigir, e pegar Carona");
+                //Debug.Log("Pode Dirigir, e pegar Carona");
                 buttonDrive.SetActive(true);
                 buttonGetRide.SetActive(true);
                 buttonExitVehicle.SetActive(false);
@@ -181,7 +183,7 @@ public class VehiclePlayerControl : MonoBehaviour
     IEnumerator CoroutineExitVehicle()
     {
 
-        Debug.Log("Ta aqui no Exit");
+        //Debug.Log("Ta aqui no Exit");
         vehicle.Exit(true, true);
 
         p_drivining = false;

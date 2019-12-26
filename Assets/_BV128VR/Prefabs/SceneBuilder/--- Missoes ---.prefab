@@ -1,0 +1,2511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &534268754634395345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268754634395351}
+  - component: {fileID: 534268754634395350}
+  m_Layer: 0
+  m_Name: Zona (2)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268754634395351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754634395345}
+  m_LocalRotation: {x: -0.0055718124, y: 0.0000000074505815, z: -7.566997e-10, w: 0.9999845}
+  m_LocalPosition: {x: -27.87, y: -0.27, z: -16.24}
+  m_LocalScale: {x: 1, y: 1.0000923, z: 1.0000931}
+  m_Children: []
+  m_Father: {fileID: 534268755343364512}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.638, y: 0, z: 0}
+--- !u!114 &534268754634395350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754634395345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: teste  1
+  ordem: 1
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 8300000, guid: 9984cc7c1020bde43aa4a6d4bf534126, type: 3}
+--- !u!1 &534268754894986768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268754894986769}
+  - component: {fileID: 534268754894986774}
+  m_Layer: 0
+  m_Name: Zona (4)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268754894986769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754894986768}
+  m_LocalRotation: {x: 0.005656689, y: 0.007336598, z: 0.007041532, w: 0.9999323}
+  m_LocalPosition: {x: -18.54, y: 2.14, z: -29.27}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756629907579}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.642, y: 0.845, z: 0.81200004}
+--- !u!114 &534268754894986774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754894986768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268754915203943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268754915203940}
+  - component: {fileID: 534268754915203941}
+  m_Layer: 0
+  m_Name: Zona (3)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268754915203940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754915203943}
+  m_LocalRotation: {x: -0.0016135547, y: -0.0000000037252903, z: -3.4924597e-10, w: 0.99999875}
+  m_LocalPosition: {x: -22.87, y: -0.226, z: -3.69}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756561940246}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.185, y: 0, z: 0}
+--- !u!114 &534268754915203941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754915203943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268754972242644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268754972242645}
+  - component: {fileID: 534268754972242634}
+  m_Layer: 0
+  m_Name: Zona (4)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268754972242645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754972242644}
+  m_LocalRotation: {x: 0.028555276, y: -0, z: -0, w: 0.99959224}
+  m_LocalPosition: {x: -54.06, y: 0.01, z: -41.67}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755522158078}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268754972242634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268754972242644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755016970723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755016970720}
+  m_Layer: 0
+  m_Name: Alvo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755016970720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755016970723}
+  m_LocalRotation: {x: 0.0008657436, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 37.7, y: 1.4, z: 38.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 534268756389081408}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &534268755069931144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755069931145}
+  - component: {fileID: 534268755069931150}
+  m_Layer: 0
+  m_Name: Zona (2)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755069931145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755069931144}
+  m_LocalRotation: {x: 0.028555276, y: -0, z: -0, w: 0.99959224}
+  m_LocalPosition: {x: -0.39, y: -0.76, z: 0.64}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755522158078}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755069931150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755069931144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 8300000, guid: 41512e0a9f7b32043bcce8e0050ed8b2, type: 3}
+--- !u!1 &534268755096264332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755096264333}
+  - component: {fileID: 534268755096264322}
+  m_Layer: 0
+  m_Name: Missao_Armamento
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755096264333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755096264332}
+  m_LocalRotation: {x: 0.00086574355, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 11.463588, y: 3.2578678, z: 14.241342}
+  m_LocalScale: {x: 1.0000001, y: 1.17984, z: 1.0000001}
+  m_Children:
+  - {fileID: 534268756629907579}
+  m_Father: {fileID: 534268755395262590}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755096264322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755096264332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe513b8d1bb891a428e0e224673b6f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  sequencia: 3
+  ativa: 0
+  descricao: Conhecendo o armamento
+  objetivo: "Acompanhe o capit\xE3o enquando ele lhe mostra onde fica o deposito de
+    armas e os canh\xF5es do forte."
+  informacaoExtra: O deposito se encontra dentro do forte.
+  recompensa: 10
+  requisitos: 1
+  imagem: {fileID: 2800000, guid: 3608bcabb3602b047b30b892e0e7c8cb, type: 3}
+  assistente: {fileID: 0}
+  NPCPadrao: {fileID: 0}
+  audioDescricao: {fileID: 8300000, guid: 3b1ae5da89c6edf48b74123a90814c1d, type: 3}
+  missaoController: {fileID: 534268755395262591}
+  iniciarAltomaticamente: 0
+  missao_checkpoints: {fileID: 534268756629907576}
+  timelinePlaybackManager: {fileID: 0}
+--- !u!1 &534268755211433947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755211433944}
+  - component: {fileID: 534268755211433945}
+  m_Layer: 0
+  m_Name: Zona (1)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755211433944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755211433947}
+  m_LocalRotation: {x: 0.028555276, y: -0, z: -0, w: 0.99959224}
+  m_LocalPosition: {x: -13.64, y: -0.75, z: 3.79}
+  m_LocalScale: {x: 1, y: 1.0000923, z: 1.0000931}
+  m_Children: []
+  m_Father: {fileID: 534268755522158078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755211433945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755211433947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: teste  1
+  ordem: 1
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755314315279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755314315276}
+  - component: {fileID: 534268755314315277}
+  m_Layer: 0
+  m_Name: Zona (4)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755314315276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755314315279}
+  m_LocalRotation: {x: -0.0055459305, y: -0.0005364605, z: -0.096280865, w: 0.9953386}
+  m_LocalPosition: {x: -2.9, y: -1.48, z: 15.59}
+  m_LocalScale: {x: 1, y: 1.0000923, z: 1.0000931}
+  m_Children:
+  - {fileID: 534268756587063770}
+  m_Father: {fileID: 534268755343364512}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.638, y: 0, z: -11.05}
+--- !u!114 &534268755314315277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755314315279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: teste  1
+  ordem: 1
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755343364515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755343364512}
+  - component: {fileID: 534268755343364513}
+  - component: {fileID: 534268755343364518}
+  m_Layer: 0
+  m_Name: CheckPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755343364512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755343364515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268756050994181}
+  - {fileID: 534268754634395351}
+  - {fileID: 534268756339377790}
+  - {fileID: 534268755314315276}
+  m_Father: {fileID: 534268756197378861}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755343364513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755343364515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece7a6a2703bce4589b18d1be360288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointsData:
+  - {fileID: 534268756050994298}
+  - {fileID: 534268754634395350}
+  - {fileID: 534268756339377791}
+  - {fileID: 534268755314315277}
+  checkPointRedMarkerPrefab: {fileID: 114674322977428196, guid: 28d33a364e53f964082d2ccbfbb227fe,
+    type: 3}
+  IndexCheckPointAtual: 0
+  checkPointObject: {fileID: 0}
+  statusMissao: 0
+  ProximaMissaoDetalhes: {fileID: 534268756389081409}
+  gameManager: {fileID: 0}
+  audio: {fileID: 0}
+  PremioMissao: 300
+  auxiliarMissao: {fileID: 0}
+--- !u!82 &534268755343364518
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755343364515}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &534268755355539466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755355539467}
+  - component: {fileID: 534268755355539464}
+  m_Layer: 0
+  m_Name: Zona (4)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755355539467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755355539466}
+  m_LocalRotation: {x: 0.006626291, y: -0, z: -1.1641534e-10, w: 0.99997807}
+  m_LocalPosition: {x: -26.850035, y: -0.24999993, z: -17.060003}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756561940246}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.75900006, y: 0, z: 0}
+--- !u!114 &534268755355539464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755355539466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755395262585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755395262590}
+  - component: {fileID: 534268755395262591}
+  - component: {fileID: 534268755395262588}
+  m_Layer: 0
+  m_Name: '--- Missoes ---'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755395262590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755395262585}
+  m_LocalRotation: {x: -0.0008656197, y: -0.9991277, z: -0.027629029, w: 0.03130275}
+  m_LocalPosition: {x: 34, y: -0.5700002, z: 52.99433}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268756389081408}
+  - {fileID: 534268756011998485}
+  - {fileID: 534268755870471146}
+  - {fileID: 534268755096264333}
+  - {fileID: 534268756197378861}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.1680002, y: -176.41101, z: 0}
+--- !u!114 &534268755395262591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755395262585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f2cc221ecfae34f80853bc982ef02a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempoJogo: 300
+  mapaMissao: {fileID: 0}
+  mapaMissaoImg: {fileID: 2800000, guid: a266f90b6a8b3a945a625e3e3575218e, type: 3}
+  auxiliarMissao: {fileID: 0}
+  missoes:
+  - {fileID: 534268756389081409}
+  - {fileID: 534268756011998474}
+  - {fileID: 534268755870471147}
+  - {fileID: 534268755096264322}
+  - {fileID: 534268756197378850}
+  missaoAtual: {fileID: 534268756389081409}
+  PlayerVRAutoWalk: {fileID: 0}
+  gameManager: {fileID: 0}
+  audio: {fileID: 0}
+  player: {fileID: 0}
+  carregarMissaoController: 0
+--- !u!82 &534268755395262588
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755395262585}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &534268755396708115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755396708112}
+  - component: {fileID: 534268755396708118}
+  - component: {fileID: 534268755396708113}
+  m_Layer: 0
+  m_Name: checkpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755396708112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755396708115}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 534268756587063770}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.2730002, y: 0, z: 0}
+--- !u!33 &534268755396708118
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755396708115}
+  m_Mesh: {fileID: 4300004, guid: 354f864f2b95d0147b180b7212e508ca, type: 3}
+--- !u!23 &534268755396708113
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755396708115}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c07d37108166d743a3f60238d10da0d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &534268755446797828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755446797829}
+  - component: {fileID: 534268755446797946}
+  m_Layer: 0
+  m_Name: Zona (2)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755446797829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755446797828}
+  m_LocalRotation: {x: 0.05770948, y: 0.0000000018626449, z: -2.3283062e-10, w: 0.9983334}
+  m_LocalPosition: {x: -24.240036, y: 0.29999954, z: 20.370022}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756561940246}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 6.617, y: 0, z: 0}
+--- !u!114 &534268755446797946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755446797828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755506582243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755506582240}
+  - component: {fileID: 534268755506582241}
+  m_Layer: 0
+  m_Name: Zona (2)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755506582240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755506582243}
+  m_LocalRotation: {x: 0.005656689, y: 0.007336598, z: 0.007041532, w: 0.9999323}
+  m_LocalPosition: {x: -18.817, y: 2.066, z: -21.262}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756629907579}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.642, y: 0.845, z: 0.81200004}
+--- !u!114 &534268755506582241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755506582243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 8300000, guid: 98e2c3337ef0fdd47a4c66dc45c22581, type: 3}
+--- !u!1 &534268755516436332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755516436333}
+  - component: {fileID: 534268755516436322}
+  m_Layer: 0
+  m_Name: Zona (1)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755516436333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755516436332}
+  m_LocalRotation: {x: -0.0055718124, y: 0.0000000074505815, z: -7.566997e-10, w: 0.9999845}
+  m_LocalPosition: {x: -32.71, y: -0.24, z: -13.310013}
+  m_LocalScale: {x: 1, y: 1.0000923, z: 1.0000931}
+  m_Children: []
+  m_Father: {fileID: 534268756629907579}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.638, y: 0, z: 0}
+--- !u!114 &534268755516436322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755516436332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: teste  1
+  ordem: 1
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755522158073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755522158078}
+  - component: {fileID: 534268755522158079}
+  - component: {fileID: 534268755522158076}
+  m_Layer: 0
+  m_Name: CheckPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755522158078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755522158073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268755211433944}
+  - {fileID: 534268755069931145}
+  - {fileID: 534268755684867717}
+  - {fileID: 534268754972242645}
+  - {fileID: 534268756647704706}
+  - {fileID: 534268756593487322}
+  m_Father: {fileID: 534268756011998485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755522158079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755522158073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece7a6a2703bce4589b18d1be360288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointsData:
+  - {fileID: 534268755211433945}
+  - {fileID: 534268755069931150}
+  - {fileID: 534268755684867716}
+  - {fileID: 534268754972242634}
+  - {fileID: 534268756647704717}
+  - {fileID: 534268756593487323}
+  checkPointRedMarkerPrefab: {fileID: 114674322977428196, guid: 28d33a364e53f964082d2ccbfbb227fe,
+    type: 3}
+  IndexCheckPointAtual: 0
+  checkPointObject: {fileID: 0}
+  statusMissao: 0
+  ProximaMissaoDetalhes: {fileID: 534268755870471147}
+  gameManager: {fileID: 0}
+  audio: {fileID: 0}
+  PremioMissao: 300
+  auxiliarMissao: {fileID: 0}
+--- !u!82 &534268755522158076
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755522158073}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &534268755538300002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755538300003}
+  - component: {fileID: 534268755538300000}
+  m_Layer: 0
+  m_Name: Zona (1)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755538300003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755538300002}
+  m_LocalRotation: {x: -0.054492462, y: 0.0000000037252907, z: -2.3283067e-10, w: 0.9985142}
+  m_LocalPosition: {x: -15.6, y: 1.64, z: 39.17}
+  m_LocalScale: {x: 1, y: 1.0000923, z: 1.0000931}
+  m_Children: []
+  m_Father: {fileID: 534268756561940246}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -6.247, y: 0, z: 0}
+--- !u!114 &534268755538300000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755538300002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: teste  1
+  ordem: 1
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755684867719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755684867717}
+  - component: {fileID: 534268755684867716}
+  m_Layer: 0
+  m_Name: Zona (3)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755684867717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755684867719}
+  m_LocalRotation: {x: 0.028555276, y: -0, z: -0, w: 0.99959224}
+  m_LocalPosition: {x: -13.94, y: 0.12, z: -48.61}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755522158078}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755684867716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755684867719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755732896166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755732896167}
+  - component: {fileID: 534268755732896164}
+  m_Layer: 0
+  m_Name: Zona (3)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755732896167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755732896166}
+  m_LocalRotation: {x: 0.005656689, y: 0.007336598, z: 0.007041532, w: 0.9999323}
+  m_LocalPosition: {x: -9.96, y: 2.07, z: -10.83}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756629907579}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.642, y: 0.845, z: 0.81200004}
+--- !u!114 &534268755732896164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755732896166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268755870471157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755870471146}
+  - component: {fileID: 534268755870471147}
+  m_Layer: 0
+  m_Name: Missao_Agua
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755870471146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755870471157}
+  m_LocalRotation: {x: 0.00086574355, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 11.463588, y: 3.2578678, z: 14.241342}
+  m_LocalScale: {x: 1.0000001, y: 1.17984, z: 1.0000001}
+  m_Children:
+  - {fileID: 534268756561940246}
+  - {fileID: 534268756002516706}
+  m_Father: {fileID: 534268755395262590}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755870471147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755870471157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe513b8d1bb891a428e0e224673b6f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  sequencia: 2
+  ativa: 0
+  descricao: "Favor para o Capit\xE3o."
+  objetivo: "Abaste\xE7a o Forte com a \xE1gua do po\xE7o."
+  informacaoExtra: "O capit\xE3o disse que ir\xE1  lhe aguarda na parte superior interna
+    do forte"
+  recompensa: 10
+  requisitos: 1
+  imagem: {fileID: 2800000, guid: 343c9154aa44df44384cee47c4be8805, type: 3}
+  assistente: {fileID: 0}
+  NPCPadrao: {fileID: 0}
+  audioDescricao: {fileID: 8300000, guid: 8789211a7582e514a91d30f76edaa34a, type: 3}
+  missaoController: {fileID: 534268755395262591}
+  iniciarAltomaticamente: 0
+  missao_checkpoints: {fileID: 534268756561940247}
+  timelinePlaybackManager: {fileID: 0}
+--- !u!1 &534268755903572363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755903572360}
+  - component: {fileID: 534268755903572361}
+  - component: {fileID: 534268755903572366}
+  m_Layer: 0
+  m_Name: CheckPoints (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755903572360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755903572363}
+  m_LocalRotation: {x: 0.00086574355, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 11.463588, y: 3.2578678, z: 14.241342}
+  m_LocalScale: {x: 1, y: 1.17984, z: 1}
+  m_Children:
+  - {fileID: 534268756336921894}
+  m_Father: {fileID: 534268756389081408}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268755903572361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755903572363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece7a6a2703bce4589b18d1be360288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointsData:
+  - {fileID: 534268756336921895}
+  checkPointRedMarkerPrefab: {fileID: 114674322977428196, guid: 28d33a364e53f964082d2ccbfbb227fe,
+    type: 3}
+  IndexCheckPointAtual: 0
+  checkPointObject: {fileID: 0}
+  statusMissao: 0
+  ProximaMissaoDetalhes: {fileID: 534268756011998474}
+  gameManager: {fileID: 0}
+  audio: {fileID: 0}
+  PremioMissao: 300
+  auxiliarMissao: {fileID: 0}
+--- !u!82 &534268755903572366
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755903572363}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &534268755960043739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268755960043736}
+  m_Layer: 0
+  m_Name: Alvo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268755960043736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268755960043739}
+  m_LocalRotation: {x: 0.0008657436, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 32.22, y: 1.23, z: 41.48}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 534268756389081408}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &534268756002516717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756002516706}
+  m_Layer: 0
+  m_Name: AlvoNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756002516706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756002516717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.3, y: 0.12, z: -19.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 534268755870471146}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &534268756011998484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756011998485}
+  - component: {fileID: 534268756011998474}
+  m_Layer: 0
+  m_Name: MissaoRonda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756011998485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756011998484}
+  m_LocalRotation: {x: 0.00086574355, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 11.463588, y: 3.2578678, z: 14.241342}
+  m_LocalScale: {x: 1, y: 1.1798425, z: 1}
+  m_Children:
+  - {fileID: 534268755522158078}
+  m_Father: {fileID: 534268755395262590}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756011998474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756011998484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe513b8d1bb891a428e0e224673b6f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  sequencia: 1
+  ativa: 0
+  descricao: Primeira Ronda
+  objetivo: "\u201CRecruta, voc\xEA ter\xE1 que fazer algumas das manuten\xE7\xF5es
+    do forte para ir se acostumando com o local. Voc\xEA ir\xE1 buscar p\xF3lvora
+    para os canh\xF5es no barrac\xE3o de p\xF3lvora, Hastear a bandeira e fazer a
+    ronda no Forte e ao redor do arraial.\u201D\r\n"
+  informacaoExtra: "Conclua a ronda ao redor do forte e relate ao Capit\xE3o."
+  recompensa: 10
+  requisitos: 1
+  imagem: {fileID: 2800000, guid: 23db5f2d3ec428c4eb72731e843accb6, type: 3}
+  assistente: {fileID: 0}
+  NPCPadrao: {fileID: 0}
+  audioDescricao: {fileID: 8300000, guid: 4f47df224df615040b88c22543bd825e, type: 3}
+  missaoController: {fileID: 534268755395262591}
+  iniciarAltomaticamente: 0
+  missao_checkpoints: {fileID: 534268755522158079}
+  timelinePlaybackManager: {fileID: 0}
+--- !u!1 &534268756050994180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756050994181}
+  - component: {fileID: 534268756050994298}
+  m_Layer: 0
+  m_Name: Zona (1)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756050994181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756050994180}
+  m_LocalRotation: {x: 0.005656689, y: 0.007336598, z: 0.007041532, w: 0.9999323}
+  m_LocalPosition: {x: -18.817, y: 2.066, z: -21.262}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755343364512}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.642, y: 0.845, z: 0.81200004}
+--- !u!114 &534268756050994298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756050994180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268756197378860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756197378861}
+  - component: {fileID: 534268756197378850}
+  m_Layer: 0
+  m_Name: Missao_buscar_suplementos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756197378861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756197378860}
+  m_LocalRotation: {x: 0.00086574355, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 11.463588, y: 3.2578678, z: 14.241342}
+  m_LocalScale: {x: 1.0000001, y: 1.17984, z: 1.0000001}
+  m_Children:
+  - {fileID: 534268755343364512}
+  m_Father: {fileID: 534268755395262590}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756197378850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756197378860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe513b8d1bb891a428e0e224673b6f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 4
+  sequencia: 4
+  ativa: 0
+  descricao: Buscar suplementos
+  objetivo: "O capit\xE3o lhe pediu para ir at\xE9 a fazenda s\xE3o marcos pegar alguns
+    mantimentos."
+  informacaoExtra: "V\xE1 at\xE9 o pequeno cais do lado externo do forte."
+  recompensa: 10
+  requisitos: 1
+  imagem: {fileID: 2800000, guid: d5bf252e1bad9ab478b5e2fe9287a144, type: 3}
+  assistente: {fileID: 0}
+  NPCPadrao: {fileID: 0}
+  audioDescricao: {fileID: 8300000, guid: 9e9f6322ee5730049aec7d0aad6c4c9a, type: 3}
+  missaoController: {fileID: 534268755395262591}
+  iniciarAltomaticamente: 0
+  missao_checkpoints: {fileID: 534268755343364513}
+  timelinePlaybackManager: {fileID: 0}
+--- !u!1 &534268756206971577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756206971582}
+  - component: {fileID: 534268756206971583}
+  m_Layer: 0
+  m_Name: Zona (5)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756206971582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756206971577}
+  m_LocalRotation: {x: 0.004763869, y: 0.12817523, z: 0.0076737776, w: 0.99171036}
+  m_LocalPosition: {x: -39.85, y: 2.1, z: -21.06}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268756629907579}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.42900002, y: 14.732, z: 0.94200003}
+--- !u!114 &534268756206971583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756206971577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268756336921889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756336921894}
+  - component: {fileID: 534268756336921895}
+  m_Layer: 0
+  m_Name: Zona_Capitao
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756336921894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756336921889}
+  m_LocalRotation: {x: 0.028555276, y: -0, z: -0, w: 0.99959224}
+  m_LocalPosition: {x: -25.03, y: -0.22, z: 8.81}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755903572360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756336921895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756336921889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: Zona Capitao Inacio Lopes
+  ordem: 1
+  recompensa: 50
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268756339377785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756339377790}
+  - component: {fileID: 534268756339377791}
+  m_Layer: 0
+  m_Name: Zona (3)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756339377790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756339377785}
+  m_LocalRotation: {x: -0.0055718124, y: 0.0000000074505815, z: -7.566997e-10, w: 0.9999845}
+  m_LocalPosition: {x: -23.22, y: -0.21, z: -2.64}
+  m_LocalScale: {x: 1, y: 1.0000923, z: 1.0000931}
+  m_Children: []
+  m_Father: {fileID: 534268755343364512}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.638, y: 0, z: 0}
+--- !u!114 &534268756339377791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756339377785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  descricao: teste  1
+  ordem: 1
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268756389081411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756389081408}
+  - component: {fileID: 534268756389081409}
+  m_Layer: 0
+  m_Name: MissaoEncontre_Capitao_Inacio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756389081408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756389081411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268755903572360}
+  - {fileID: 534268755016970720}
+  - {fileID: 534268755960043736}
+  - {fileID: 534268756392012930}
+  m_Father: {fileID: 534268755395262590}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756389081409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756389081411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe513b8d1bb891a428e0e224673b6f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  sequencia: 0
+  ativa: 1
+  descricao: 'Boas Vindas
+
+'
+  objetivo: "Bem vindo ao forte soldado!! \nPrimeiramente apresente-se ao capit\xE3o\n
+    para sua primeira miss\xE3o.\n"
+  informacaoExtra: "Encontre o Capit\xE3o Inacio Lopes de Magalh\xE3es na entrada
+    do forte."
+  recompensa: 1
+  requisitos: 1
+  imagem: {fileID: 2800000, guid: 9c599f1a4400ea54ba65859ad641c9ca, type: 3}
+  assistente: {fileID: 0}
+  NPCPadrao: {fileID: 0}
+  audioDescricao: {fileID: 8300000, guid: a60175ba0cfdc0f488b37a3007718aba, type: 3}
+  missaoController: {fileID: 534268755395262591}
+  iniciarAltomaticamente: 1
+  missao_checkpoints: {fileID: 534268755903572361}
+  timelinePlaybackManager: {fileID: 0}
+--- !u!1 &534268756392012941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756392012930}
+  m_Layer: 0
+  m_Name: Alvo (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756392012930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756392012941}
+  m_LocalRotation: {x: 0.0008657436, y: 0.9991275, z: 0.02763176, w: 0.03130422}
+  m_LocalPosition: {x: 44.66, y: 1.37, z: 38.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 534268756389081408}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &534268756561940241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756561940246}
+  - component: {fileID: 534268756561940247}
+  - component: {fileID: 534268756561940244}
+  m_Layer: 0
+  m_Name: CheckPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756561940246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756561940241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268755538300003}
+  - {fileID: 534268755446797829}
+  - {fileID: 534268754915203940}
+  - {fileID: 534268755355539467}
+  m_Father: {fileID: 534268755870471146}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756561940247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756561940241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece7a6a2703bce4589b18d1be360288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointsData:
+  - {fileID: 534268755538300000}
+  - {fileID: 534268755446797946}
+  - {fileID: 534268754915203941}
+  - {fileID: 534268755355539464}
+  checkPointRedMarkerPrefab: {fileID: 114674322977428196, guid: 28d33a364e53f964082d2ccbfbb227fe,
+    type: 3}
+  IndexCheckPointAtual: 0
+  checkPointObject: {fileID: 0}
+  statusMissao: 0
+  ProximaMissaoDetalhes: {fileID: 534268755096264322}
+  gameManager: {fileID: 0}
+  audio: {fileID: 0}
+  PremioMissao: 300
+  auxiliarMissao: {fileID: 0}
+--- !u!82 &534268756561940244
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756561940241}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &534268756587063781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756587063770}
+  - component: {fileID: 534268756587063768}
+  - component: {fileID: 534268756587063771}
+  m_Layer: 0
+  m_Name: CheckPointRedMarker(Clone) (1)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &534268756587063770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756587063781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.57, y: 0.049, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268755396708112}
+  m_Father: {fileID: 534268755314315276}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756587063768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756587063781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7febd6d5506f4a1418e79d86b9cd4f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auxMissao: {fileID: 0}
+  checkData: {fileID: 534268755684867716}
+  checkPoints: {fileID: 534268755522158073}
+--- !u!65 &534268756587063771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756587063781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 4.1731033, y: 2.5181959, z: 4.3347063}
+  m_Center: {x: -0.021591187, y: 0.22038326, z: -0.040161178}
+--- !u!1 &534268756593487333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756593487322}
+  - component: {fileID: 534268756593487323}
+  m_Layer: 0
+  m_Name: Zona (6)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756593487322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756593487333}
+  m_LocalRotation: {x: -0.0073159505, y: -0.0000000037252903, z: -1.1641532e-10, w: 0.99997324}
+  m_LocalPosition: {x: -23.57, y: 0.16, z: 10.27}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755522158078}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -0.83800006, y: 0, z: 0}
+--- !u!114 &534268756593487323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756593487333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}
+--- !u!1 &534268756629907578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756629907579}
+  - component: {fileID: 534268756629907576}
+  - component: {fileID: 534268756629907577}
+  m_Layer: 0
+  m_Name: CheckPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756629907579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756629907578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 534268755516436333}
+  - {fileID: 534268755506582240}
+  - {fileID: 534268755732896167}
+  - {fileID: 534268754894986769}
+  - {fileID: 534268756206971582}
+  m_Father: {fileID: 534268755096264333}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534268756629907576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756629907578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece7a6a2703bce4589b18d1be360288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointsData:
+  - {fileID: 534268755516436322}
+  - {fileID: 534268755506582241}
+  - {fileID: 534268755732896164}
+  - {fileID: 534268754894986774}
+  - {fileID: 534268756206971583}
+  checkPointRedMarkerPrefab: {fileID: 114674322977428196, guid: 28d33a364e53f964082d2ccbfbb227fe,
+    type: 3}
+  IndexCheckPointAtual: 0
+  checkPointObject: {fileID: 0}
+  statusMissao: 0
+  ProximaMissaoDetalhes: {fileID: 534268756197378850}
+  gameManager: {fileID: 0}
+  audio: {fileID: 0}
+  PremioMissao: 300
+  auxiliarMissao: {fileID: 0}
+--- !u!82 &534268756629907577
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756629907578}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &534268756647704716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534268756647704706}
+  - component: {fileID: 534268756647704717}
+  m_Layer: 0
+  m_Name: Zona (5)
+  m_TagString: CheckpointRedMarker
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534268756647704706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756647704716}
+  m_LocalRotation: {x: -0.01273515, y: -0, z: -1.1641532e-10, w: 0.99991894}
+  m_LocalPosition: {x: -44.3, y: 0.12, z: 10.02}
+  m_LocalScale: {x: 1, y: 1.0001855, z: 1.000183}
+  m_Children: []
+  m_Father: {fileID: 534268755522158078}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -1.4590001, y: 0, z: 0}
+--- !u!114 &534268756647704717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534268756647704716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cbef0addb619d40b987773f2b95642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  descricao: teste 2
+  ordem: 2
+  recompensa: 0
+  concluida: 0
+  audioDescricao: {fileID: 0}

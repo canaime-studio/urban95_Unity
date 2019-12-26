@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 6c34899fa8159094fa8fd5f55ac30379
+labels:
+- Gun
+- Mesh
+- Prop
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -43,6 +47,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -67,6 +72,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

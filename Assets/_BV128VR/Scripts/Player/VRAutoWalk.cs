@@ -130,7 +130,8 @@ public class VRAutoWalk : MonoBehaviour, IMovementPlayer
     }
     public void FecharInformacao()
     {
-        inforUI.CloseInformation();        
+        inforUI.CloseInformation(); 
+      //  inforUI.informativoAtual.a
         StopWalk();
     }
 
@@ -174,13 +175,13 @@ public class VRAutoWalk : MonoBehaviour, IMovementPlayer
     }
     public void StopWalk()
     {
-        Debug.Log("Metodo Parar");
+        //Debug.Log("Metodo Parar");
         m_CharacterController.SimpleMove(Vector3.zero);
         moveForward = false;
     }
     public void Sentar()
     {
-        Debug.Log("teste");
+       // Debug.Log("teste");
     }
     public void Sentado(bool isSitting)
     {
@@ -189,10 +190,10 @@ public class VRAutoWalk : MonoBehaviour, IMovementPlayer
             controleCorpo.cameraHeightOffset = 1.3f;
             controleCorpo.bodyTurnAngleIdle = 360;
             controleCorpo.bodyTurnAngleMoving = 360;
-            Debug.Log("Sentado Message");
+            //Debug.Log("Sentado Message");
         } else
         {
-            Debug.Log("Levantando Camera");
+            //Debug.Log("Levantando Camera");
             controleCorpo.cameraHeightOffset = FindObjectOfType<StartupScene>().alturaPlayer-0.10f;
             //controleCorpo.cameraHeightOffset = 1.7f;
             controleCorpo.bodyTurnAngleIdle = 75;
@@ -203,11 +204,11 @@ public class VRAutoWalk : MonoBehaviour, IMovementPlayer
     #endregion
     public void OnEnable()
     {
-        Debug.Log("Controle Habilitado");
+        //Debug.Log("Controle Habilitado");
     }
     public void OnDisable()
     {
-        Debug.Log("VR AUTO DESABILITADO Controle Desabilitado");
+        //Debug.Log("VR AUTO DESABILITADO Controle Desabilitado");
     }
     public void isEnable(bool enabled)
     {

@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: 9769f32068932a34a85fa342d7a02f9b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: agua
+    100002: asfalto
+    100004: bancomarmore
+    100006: chao da piscina
+    100008: chaoFinal
+    100010: Circle.001
+    100012: Cube
+    100014: monumento
+    100016: monumentochafaris
+    100018: //RootNode
+    100020: piscina agua
+    100022: Plane.001
+    100024: Plane.002
+    100026: Plane.003
+    100028: Plane.004
+    100030: Plane.005
+    100032: Plane.006
+    100034: Plane.007
+    100036: Plane.008
+    100038: Plane.009
+    100040: Plane.010
+    100042: Plane.011
+    100044: Plane.012
+    100046: Plane.013
+    100048: Plane.014
+    100050: Plane.015
+    100052: Plane.016
+    100054: portal do milenium.001
+    100056: Asfalto
+    100058: Estrutura_praca
+    100060: Gramado
+    100062: Rampas_Externo
+    100064: Rampas_Interno
+    100066: Rampas_Interno.001
+    100068: Rampas_Interno.002
+    100070: Rampas_Interno.003
+    400000: agua
+    400002: asfalto
+    400004: bancomarmore
+    400006: chao da piscina
+    400008: chaoFinal
+    400010: Circle.001
+    400012: Cube
+    400014: monumento
+    400016: monumentochafaris
+    400018: //RootNode
+    400020: piscina agua
+    400022: Plane.001
+    400024: Plane.002
+    400026: Plane.003
+    400028: Plane.004
+    400030: Plane.005
+    400032: Plane.006
+    400034: Plane.007
+    400036: Plane.008
+    400038: Plane.009
+    400040: Plane.010
+    400042: Plane.011
+    400044: Plane.012
+    400046: Plane.013
+    400048: Plane.014
+    400050: Plane.015
+    400052: Plane.016
+    400054: portal do milenium.001
+    400056: Asfalto
+    400058: Estrutura_praca
+    400060: Gramado
+    400062: Rampas_Externo
+    400064: Rampas_Interno
+    400066: Rampas_Interno.001
+    400068: Rampas_Interno.002
+    400070: Rampas_Interno.003
+    2100000: estrela
+    2100002: Concreto
+    2100004: Piso01
+    2100006: Guia
+    2100008: MeioFio
+    2100010: Poso3
+    2100012: No Name
+    2100014: grama
+    2100016: concreto
+    2100018: Material.001
+    2100020: LateralConcreto
+    2100022: Material.003
+    2100024: Material.002
+    2100026: Material.005
+    2100028: Material.006
+    2100030: monumetoazul
+    2100032: cinza
+    2100034: Material.004
+    2100036: Piso01.008
+    2100038: Poso3.008
+    2100040: Concreto.008
+    2100042: Piso01.009
+    2100044: Poso3.009
+    2100046: Concreto.009
+    2100048: Piso01.010
+    2100050: Poso3.010
+    2100052: Concreto.010
+    2100054: Piso01.011
+    2100056: Poso3.011
+    2100058: Concreto.011
+    2100060: Piso01.012
+    2100062: Poso3.012
+    2100064: Concreto.012
+    2100066: Piso01.013
+    2100068: Poso3.013
+    2100070: Concreto.013
+    2100072: Piso01.014
+    2100074: Poso3.014
+    2100076: Concreto.014
+    2100078: Piso01.015
+    2100080: Poso3.015
+    2100082: Concreto.015
+    2100084: Piso01.016
+    2100086: Poso3.016
+    2100088: Concreto.016
+    2100090: Piso01.017
+    2100092: Poso3.017
+    2100094: Concreto.017
+    2100096: Piso01.018
+    2100098: Poso3.018
+    2100100: Concreto.018
+    2100102: Piso01.019
+    2100104: Poso3.019
+    2100106: Concreto.019
+    2100108: Piso01.020
+    2100110: Poso3.020
+    2100112: Concreto.020
+    2100114: Piso01.021
+    2100116: Poso3.021
+    2100118: Concreto.021
+    2100120: Piso01.003
+    2100122: Poso3.003
+    2100124: Concreto.003
+    2100126: Piso01.007
+    2100128: Poso3.007
+    2100130: Concreto.007
+    2300000: agua
+    2300002: asfalto
+    2300004: bancomarmore
+    2300006: chao da piscina
+    2300008: chaoFinal
+    2300010: Circle.001
+    2300012: Cube
+    2300014: monumento
+    2300016: monumentochafaris
+    2300018: piscina agua
+    2300020: Plane.001
+    2300022: Plane.002
+    2300024: Plane.003
+    2300026: Plane.004
+    2300028: Plane.005
+    2300030: Plane.006
+    2300032: Plane.007
+    2300034: Plane.008
+    2300036: Plane.009
+    2300038: Plane.010
+    2300040: Plane.011
+    2300042: Plane.012
+    2300044: Plane.013
+    2300046: Plane.014
+    2300048: Plane.015
+    2300050: Plane.016
+    2300052: portal do milenium.001
+    2300054: Asfalto
+    2300056: Estrutura_praca
+    2300058: Gramado
+    2300060: Rampas_Externo
+    2300062: Rampas_Interno
+    2300064: Rampas_Interno.001
+    2300066: Rampas_Interno.002
+    2300068: Rampas_Interno.003
+    3300000: agua
+    3300002: asfalto
+    3300004: bancomarmore
+    3300006: chao da piscina
+    3300008: chaoFinal
+    3300010: Circle.001
+    3300012: Cube
+    3300014: monumento
+    3300016: monumentochafaris
+    3300018: piscina agua
+    3300020: Plane.001
+    3300022: Plane.002
+    3300024: Plane.003
+    3300026: Plane.004
+    3300028: Plane.005
+    3300030: Plane.006
+    3300032: Plane.007
+    3300034: Plane.008
+    3300036: Plane.009
+    3300038: Plane.010
+    3300040: Plane.011
+    3300042: Plane.012
+    3300044: Plane.013
+    3300046: Plane.014
+    3300048: Plane.015
+    3300050: Plane.016
+    3300052: portal do milenium.001
+    3300054: Asfalto
+    3300056: Estrutura_praca
+    3300058: Gramado
+    3300060: Rampas_Externo
+    3300062: Rampas_Interno
+    3300064: Rampas_Interno.001
+    3300066: Rampas_Interno.002
+    3300068: Rampas_Interno.003
+    4300000: Circle.001
+    4300002: Cube
+    4300004: agua
+    4300006: Plane.006
+    4300008: chaoFinal
+    4300010: bancomarmore
+    4300012: chao da piscina
+    4300014: monumento
+    4300016: monumentochafaris
+    4300018: piscina agua
+    4300020: asfalto
+    4300022: Plane.005
+    4300024: portal do milenium.001
+    4300026: Plane.009
+    4300028: Plane.010
+    4300030: Plane.008
+    4300032: Plane.007
+    4300034: Plane.002
+    4300036: Plane.001
+    4300038: Plane.011
+    4300040: Plane.012
+    4300042: Plane.003
+    4300044: Plane.004
+    4300046: Plane.013
+    4300048: Plane.014
+    4300050: Plane.015
+    4300052: Plane.016
+    4300054: Estrutura_praca
+    4300056: Gramado
+    4300058: Rampas_Interno
+    4300060: Rampas_Externo
+    4300062: Asfalto
+    4300064: Rampas_Interno.001
+    4300066: Rampas_Interno.002
+    4300068: Rampas_Interno.003
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -39,6 +39,17 @@ ModelImporter:
     100066: Rampas_Interno.001
     100068: Rampas_Interno.002
     100070: Rampas_Interno.003
+    100072: Rampas_Interno.000
+    100074: Rampas_Interno.004
+    100076: Rampas_Interno.005
+    100078: Rampas_Interno.006
+    100080: Rampas_Interno.007
+    100082: Rampas_Interno.008
+    100084: Rampas_Interno.009
+    100086: Rampas_Interno.010
+    100088: Rampas_Interno.011
+    100090: Rampas_Interno.012
+    100092: Rampas_Interno.013
     400000: agua
     400002: asfalto
     400004: bancomarmore
@@ -75,6 +86,17 @@ ModelImporter:
     400066: Rampas_Interno.001
     400068: Rampas_Interno.002
     400070: Rampas_Interno.003
+    400072: Rampas_Interno.000
+    400074: Rampas_Interno.004
+    400076: Rampas_Interno.005
+    400078: Rampas_Interno.006
+    400080: Rampas_Interno.007
+    400082: Rampas_Interno.008
+    400084: Rampas_Interno.009
+    400086: Rampas_Interno.010
+    400088: Rampas_Interno.011
+    400090: Rampas_Interno.012
+    400092: Rampas_Interno.013
     2100000: estrela
     2100002: Concreto
     2100004: Piso01
@@ -141,6 +163,8 @@ ModelImporter:
     2100126: Piso01.007
     2100128: Poso3.007
     2100130: Concreto.007
+    2100132: Calcada
+    2100134: Poso3.001
     2300000: agua
     2300002: asfalto
     2300004: bancomarmore
@@ -176,6 +200,17 @@ ModelImporter:
     2300064: Rampas_Interno.001
     2300066: Rampas_Interno.002
     2300068: Rampas_Interno.003
+    2300070: Rampas_Interno.000
+    2300072: Rampas_Interno.004
+    2300074: Rampas_Interno.005
+    2300076: Rampas_Interno.006
+    2300078: Rampas_Interno.007
+    2300080: Rampas_Interno.008
+    2300082: Rampas_Interno.009
+    2300084: Rampas_Interno.010
+    2300086: Rampas_Interno.011
+    2300088: Rampas_Interno.012
+    2300090: Rampas_Interno.013
     3300000: agua
     3300002: asfalto
     3300004: bancomarmore
@@ -211,6 +246,17 @@ ModelImporter:
     3300064: Rampas_Interno.001
     3300066: Rampas_Interno.002
     3300068: Rampas_Interno.003
+    3300070: Rampas_Interno.000
+    3300072: Rampas_Interno.004
+    3300074: Rampas_Interno.005
+    3300076: Rampas_Interno.006
+    3300078: Rampas_Interno.007
+    3300080: Rampas_Interno.008
+    3300082: Rampas_Interno.009
+    3300084: Rampas_Interno.010
+    3300086: Rampas_Interno.011
+    3300088: Rampas_Interno.012
+    3300090: Rampas_Interno.013
     4300000: Circle.001
     4300002: Cube
     4300004: agua
@@ -246,6 +292,17 @@ ModelImporter:
     4300064: Rampas_Interno.001
     4300066: Rampas_Interno.002
     4300068: Rampas_Interno.003
+    4300070: Rampas_Interno.000
+    4300072: Rampas_Interno.004
+    4300074: Rampas_Interno.005
+    4300076: Rampas_Interno.006
+    4300078: Rampas_Interno.007
+    4300080: Rampas_Interno.008
+    4300082: Rampas_Interno.009
+    4300084: Rampas_Interno.010
+    4300086: Rampas_Interno.011
+    4300088: Rampas_Interno.012
+    4300090: Rampas_Interno.013
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -9,6 +9,8 @@ public class EventoHistorico
     public string titulo, descricao, ano, contextoHistorico;
     public Texture imagem;
     public AudioClip audioDescricao;
+    public Transform posicao;
+    public bool fixo;
 }
 [RequireComponent(typeof(AudioSource))]
 public class FragmentosHistoricosController : MonoBehaviour
@@ -25,7 +27,7 @@ public class FragmentosHistoricosController : MonoBehaviour
     
 
     public FragmentoHistoricoObjeto[] fragmento;
-    public Transform[] posicoesFragmentos;
+    public List<Transform> posicoesFragmentos;
     public int qtdFragmentos;
     //public List<string> descricaoFragmentos;
     public List<EventoHistorico> eventoHistoricos;
@@ -53,22 +55,56 @@ public class FragmentosHistoricosController : MonoBehaviour
                 if (audio == null) audio = GetComponent<AudioSource>();
 
                 GUI_Fragmento.painelFragmentos.SetActive(false);
-                posicoesFragmentos = GetComponentsInChildren<Transform>();
-
-                for (int i = 0; i < qtdFragmentos; i++)
+                var fragPos = GetComponentsInChildren<FragmentoPosition>();
+                foreach (var frag in fragPos)
+                {
+                    if(!frag.fixo)
+                    {
+                        posicoesFragmentos.Add(frag.gameObject.transform);
+                    }
+                }
+                //posicoesFragmentos = GetComponentsInChildren<Transform>();
+                Debug.LogError(posicoesFragmentos.Count + " Disponiveis");
+                foreach (EventoHistorico evento in eventoHistoricos)
                 {
                     int tipoFragmento = Random.Range(0, fragmento.Length);
-                    int posicaoFramengo = Random.Range(1, posicoesFragmentos.Length);
-                    int indexDescricao = Random.Range(0, eventoHistoricos.Count);
-                    var fragmentoItem = Instantiate(fragmento[tipoFragmento].gameObject, posicoesFragmentos[posicaoFramengo]);
+                    
+                    //int indexDescricao = Random.Range(0, eventoHistoricos.Count);
 
-                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().descricao = eventoHistoricos[indexDescricao].descricao;
-                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().ano = eventoHistoricos[indexDescricao].ano;
-                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().contextoHistorico = eventoHistoricos[indexDescricao].contextoHistorico;
-                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().titulo = eventoHistoricos[indexDescricao].titulo;
-                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().imagem = eventoHistoricos[indexDescricao].imagem;
-                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().audioDescricao = eventoHistoricos[indexDescricao].audioDescricao;
+                    
+
+                    var fragmentoItem = new GameObject();
+
+                    if (evento.fixo)
+                    {
+                        fragmentoItem = Instantiate(fragmento[tipoFragmento].gameObject, evento.posicao);
+                    }
+                    else
+                    {
+                        int posicaoFramengo = Random.Range(0, posicoesFragmentos.Count);
+                        Debug.Log("Posicao Sorteada: " + posicaoFramengo);
+                        fragmentoItem = Instantiate(fragmento[tipoFragmento].gameObject, posicoesFragmentos[posicaoFramengo]);
+                        posicoesFragmentos.RemoveAt(posicaoFramengo);
+                    }
+
+                    
+
+                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().descricao = evento.descricao;
+                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().ano = evento.ano;
+                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().contextoHistorico = evento.contextoHistorico;
+                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().titulo = evento.titulo;
+                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().imagem = evento.imagem;
+                    fragmentoItem.GetComponent<FragmentoHistoricoObjeto>().audioDescricao = evento.audioDescricao;
+                    fragmentoItem.gameObject.name = evento.titulo;
+
+                    //Debug.LogError("Removendo Posicao: " + posicoesFragmentos[posicaoFramengo].name + " | Agora tem: " + posicoesFragmentos.Count);
+                    //posicoesFragmentos.Remove(posicoesFragmentos[posicaoFramengo]);
+                    
                 }
+                //for (int i = 0; i < eventoHistoricos.Count; i++)
+                //{
+                //    //int tipoFragmento = Random.Range(0, fragmento.Length);
+                //}
                 GUI_Fragmento.TxtProntos.text = "0/" + qtdFragmentos;
             }
         }        

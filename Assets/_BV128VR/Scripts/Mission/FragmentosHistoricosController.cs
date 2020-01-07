@@ -55,7 +55,7 @@ public class FragmentosHistoricosController : MonoBehaviour
                 if (audio == null) audio = GetComponent<AudioSource>();
 
                 GUI_Fragmento.painelFragmentos.SetActive(false);
-                var fragPos = GetComponentsInChildren<FragmentoPosition>();
+                var fragPos = GetComponentsInChildren<FragmentoContainer>();
                 foreach (var frag in fragPos)
                 {
                     if(!frag.fixo)

@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/TESTE.unity
     guid: 21fa3e0434e14bd4f8993e6936e3ec83
+  - enabled: 1
+    path: Assets/TesteMuro.unity
+    guid: 4a416e4bff2c18642825846a76d13380
   m_configObjects: {}
